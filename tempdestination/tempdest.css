@@ -1,0 +1,20 @@
+/* Reset default margin and padding for the page */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the image horizontally and vertically */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of the viewport height */
+    background-color: #f0f0f0; /* Background color for the container */
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
